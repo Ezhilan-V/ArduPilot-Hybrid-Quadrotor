@@ -1,0 +1,88 @@
+# System Configuration
+SYSID_THISMAV     1
+Q_ENABLE          1
+Q_TILT_TYPE       0
+Q_THR_MID         500
+Q_THR_MAX         1000
+
+# Engine Parameters
+ENG_RUN           1
+ENG_OUTPUT        800
+ENG_MAX_OUTPUT    1000
+ENG_MIN_OUTPUT    500
+ENG_IDLE_RPM      700
+
+# Power Management
+BATT_MONITOR      4
+BATT_VOLT_PIN     2
+BATT_CURR_PIN     3
+BATT_LOW_VOLT     11.0
+BATT_CRT_VOLT     10.0
+BATT_FS_LOW_ACT   2
+BATT_FS_CRT_ACT   1
+
+# Quad Control
+Q_LOITER_ALT      10
+Q_RTL_ALT         30
+Q_LAND_FINAL_ALT  1
+Q_LAND_SPEED      30
+Q_OPTIONS         0
+
+# Navigation
+FS_THR_ENABLE     1
+FS_THR_VALUE      975
+FS_EKF_THRESH     0.8
+FS_OPTIONS        0
+
+# Flight Modes
+MODE_CH           5
+FLTMODE1          2
+FLTMODE2          6
+FLTMODE3          0
+FLTMODE4          16
+FLTMODE5          17
+FLTMODE6          3
+
+# RC Configuration
+RC1_MIN           1100
+RC1_MAX           1900
+RC2_MIN           1100
+RC2_MAX           1900
+RC3_MIN           1100
+RC3_MAX           1900
+RC4_MIN           1100
+RC4_MAX           1900
+RC5_MIN           1000
+RC5_MAX           2000
+
+# Power Generation
+ENG_PWR_GEN_ENABLE    1
+ENG_PWR_GEN_THRESHOLD 750
+ENG_PWR_IDLE_VOLT     12.5
+ENG_PWR_MAX_VOLT      14.8
+ENG_PWR_MONITOR       1
+
+# Navigation Parameters
+WPNAV_SPEED       800
+WPNAV_RADIUS      200
+WPNAV_ACCEL       250
+RTL_ALT           3000
+RTL_ALT_FINAL     0
+RTL_LOIT_TIME     5000
+
+# Telemetry
+BRD_SAFETYENABLE  0
+SERIAL1_BAUD      57
+SERIAL1_PROTOCOL  1
+
+# Failsafes
+FS_BATT_ENABLE    1
+FS_CRASH_CHECK    1
+FS_GPS_ENABLE     1
+FS_EKF_ACTION     1
+
+# Additional Settings
+THR_MAX           80
+AHRS_EKF_TYPE     3
+LOG_BITMASK       65535
+LOG_DISARMED      1

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<frame name="hybrid_uav" class="copter">
+  <description>Hybrid UAV with power generation</description>
+  <version>1</version>
+  <default_params>
+    <param name="MOT_PWM_MIN" value="1000" />
+    <param name="MOT_PWM_MAX" value="2000" />
+    <param name="MOT_SPIN_ARM" value="0.1" />
+    <param name="MOT_SPIN_MIN" value="0.15" />
+    <param name="MOT_SPIN_MAX" value="0.95" />
+  </default_params>
+</frame>
